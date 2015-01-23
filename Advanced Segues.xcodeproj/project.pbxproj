@@ -13,6 +13,7 @@
 		087DD7C91A71C29300DF9E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087DD7C71A71C29300DF9E84 /* Main.storyboard */; };
 		087DD7CB1A71C29300DF9E84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087DD7CA1A71C29300DF9E84 /* Images.xcassets */; };
 		087DD7D71A71C29300DF9E84 /* Advanced_SeguesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087DD7D61A71C29300DF9E84 /* Advanced_SeguesTests.swift */; };
+		087DD7E11A71C4DB00DF9E84 /* MSTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087DD7E01A71C4DB00DF9E84 /* MSTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		087DD7D01A71C29300DF9E84 /* Advanced SeguesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Advanced SeguesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		087DD7D51A71C29300DF9E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		087DD7D61A71C29300DF9E84 /* Advanced_SeguesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advanced_SeguesTests.swift; sourceTree = "<group>"; };
+		087DD7E01A71C4DB00DF9E84 /* MSTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				087DD7C01A71C29300DF9E84 /* AppDelegate.swift */,
 				087DD7C51A71C29300DF9E84 /* ViewController.swift */,
+				087DD7E01A71C4DB00DF9E84 /* MSTableViewController.swift */,
 				087DD7C71A71C29300DF9E84 /* Main.storyboard */,
 				087DD7CA1A71C29300DF9E84 /* Images.xcassets */,
 				087DD7C21A71C29300DF9E84 /* Advanced_Segues.xcdatamodeld */,
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				087DD7C61A71C29300DF9E84 /* ViewController.swift in Sources */,
+				087DD7E11A71C4DB00DF9E84 /* MSTableViewController.swift in Sources */,
 				087DD7C11A71C29300DF9E84 /* AppDelegate.swift in Sources */,
 				087DD7C41A71C29300DF9E84 /* Advanced_Segues.xcdatamodeld in Sources */,
 			);
